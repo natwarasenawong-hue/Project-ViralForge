@@ -1,5 +1,6 @@
 import streamlit as st
 from moviepy.editor import *
+from moviepy.editor import VideoFileClip, AudioFileClip, TextClip, concatenate_videoclips
 import requests # เพื่อจำลองการดาวน์โหลดไฟล์
 
 # --- ส่วนจำลอง AI Modules (ปกติส่วนนี้จะเป็น API Call) ---
